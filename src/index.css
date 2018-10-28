@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("../public/emergency.jpg");
+  margin-bottom: 300px;
+}
+
+.hello {
+  color: red;
+}
+
+.outerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adminButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.qrCode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: dashed;
+}
+
+.qrCodeCheck {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  padding: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+
+.titleBox {
+  background-color: red;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  padding-left: 5px;
+  border-bottom: dashed;
+  border-bottom: white;
+  border-style: dashed;
+  border-width: 5px;
+  padding: 10px;
+}
+.account-data {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.AppName {
+  color: white;
+}
+
+.SingleRequest {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.requests {
+  margin: 3px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.donationAddress {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  font-size: 0.3em;
+  padding: 2px;
+  margin-bottom: 3px;
+}
+
+.donationRequested {
+  background: #17b8a4;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 7px;
+}
+
+.SingleRequest-card-1 {
+  -webkit-box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+  max-width: 75vw;
+}
+
+.uploadedImage {
+  border-radius: 30px;
+  max-width: 250px;
+}
+
+.sponsorBar {
+  background-color: white;
+}
+
+.react-sweet-progress {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 95%;
+}
+
+.request-count {
+  background: red;
+  font-size: 2em;
+  color: white;
+  border-radius: 18px;
+  /* margin-right: 8px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+  align-self: center;
+}
+
+.uploadImageBox {
+  margin: 10px;
+}
+
+.submitImage {
+  margin: 5px;
+  border-style: dashed;
+  border-color: brown;
+}
+
+.requestTextForm {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  border-style: double;
+  padding: 5px;
+}
+.requestContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px;
+  border-radius: 3px;
+  align-items: stretch;
+}
+
+.formDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-list {
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 2px 34px -1px rgba(0, 0, 0, 0.26);
+}
+
+.requestTextForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-style: double;
+  padding: 7px;
+}
+
+.request-personalStory {
+  margin-top: 10px;
+}
+
+.uploadIPFS {
+}
+
+.uploadImageBox {
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.sponsorBanner {
+  max-width: 80vw;
+  margin-top: 10px;
+  border-style: dashed;
+  padding: 5px;
+  padding-top: 8px;
+}
+
+.sponsorBar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-color: turquoise;
+  border-bottom-color: white;
+  border-top-color: red;
+  border-top-width: 1px;
+}
+
+.sponsorAddress {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 0.5em;
+}
+
+a {
+  background-color: transparent;
+  font-size: 1.4em;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
