@@ -1,0 +1,3 @@
+[submodule "emergency-travel"]
+	path = emergency-travel
+	url = https://github.com/crazyrabbitLTC/emergency-travel
